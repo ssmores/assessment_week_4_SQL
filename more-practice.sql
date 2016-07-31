@@ -3,9 +3,13 @@
 
 
 -- INSERT
-
+INSERT INTO models (year, brand_name, name) VALUES (2015, 'Chevrolet', 'Malibu');
+INSERT INTO models (year, brand_name, name) VALUES (2015, 'Subaru', 'Outback');
 
 -- CREATE TABLE
+CREATE TABLE awards (name VARCHAR (100) NOT NULL, year INT NOT NULL, winner_id INT NOT NULL);
 
 
 -- More INSERT
+INSERT INTO awards (name, year, winner_id) VALUES ('IIHS Safety Award', 2015, 49);
+INSERT INTO awards (name, year, winner_id) VALUES ('IIHS Safety Award', 2015, 50);
